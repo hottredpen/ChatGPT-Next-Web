@@ -1,11 +1,5 @@
 {
     "github": {
         "silent": true
-    },
-    "rewrites": [
-       { "source": "/xyz/:match/:url*", "destination": "https://:match/:url*" },
-       { "source": "/xyz/:match/:url*/", "destination": "https://:match/:url*/" },
-       { "source": "/httpxyz/:match/:url*", "destination": "http://:match/:url*" },
-       { "source": "/httpxyz/:match/:url*/", "destination": "http://:match/:url*/" }
-    ]
+    }
 }
